@@ -20,6 +20,7 @@ pkgs.mkShell {
     ccache
     clang-tools
     prettier
+    fmt
     icu78
   ] ++ extraPkgs;
 
